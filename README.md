@@ -5,7 +5,7 @@ A dynamic web application for creating and displaying user profile cards using N
 ## 🚀 Features
 
 - Create dynamic user profiles
-- Display profile cards
+- Display user profile cards
 - Clean and responsive user interface
 - Server-side rendering with EJS
 - Express.js backend
@@ -41,10 +41,3 @@ user-profile-card-generator/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
-## 🌐 Live Demo
-
-https://user-profile-card-generator-g914.onrender.com
-
-## 📂 GitHub Repository
-
-https://github.com/Aaryanjain65/user-profile-card-generator
