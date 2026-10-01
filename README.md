@@ -41,3 +41,10 @@ user-profile-card-generator/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
+## 🌐 Live Demo
+
+https://user-profile-card-generator-g914.onrender.com
+
+## 📂 GitHub Repository
+
+https://github.com/Aaryanjain65/user-profile-card-generator
