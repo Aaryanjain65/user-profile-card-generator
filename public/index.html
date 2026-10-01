@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Profile Card Generator</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="icon">✨</div>
+
+            <h1>User Profile Card</h1>
+
+            <p>Create your professional profile</p>
+        </div>
+
+
+        <form action="/profile" method="POST" class="form-card">
+
+            <!-- Name -->
+            <label for="name">
+                👤 Full Name
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <!-- Bio -->
+            <label for="bio">
+                📝 Bio
+            </label>
+
+            <textarea
+                id="bio"
+                name="bio"
+                placeholder="Write something about yourself..."
+                required
+            ></textarea>
+
+
+            <!-- Skills -->
+            <label for="skills">
+                💻 Skills
+            </label>
+
+            <input
+                type="text"
+                id="skills"
+                name="skills"
+                placeholder="Python, HTML, CSS, JavaScript"
+                required
+            >
+
+
+            <!-- Social Link -->
+            <label for="social">
+                🔗 Social Profile
+            </label>
+
+            <input
+                type="url"
+                id="social"
+                name="social"
+                placeholder="https://github.com/username"
+            >
+
+
+            <!-- Submit -->
+            <button type="submit">
+                🚀 Generate Profile Card
+            </button>
+
+        </form>
+
+
+        <p class="footer">
+            Built with HTML • CSS • Node.js • Express
+        </p>
+
+    </div>
+
+</body>
+</html>
